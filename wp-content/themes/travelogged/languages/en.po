@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-07-02 15:54+0530\n"
+"PO-Revision-Date: 2019-07-02 15:54+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: 404.php:16
+msgid "404..."
+msgstr ""
+
+#: 404.php:17
+msgid "We are Sorry..."
+msgstr ""
+
+#: 404.php:19
+msgid "Back to Home"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:60
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: functions.php:117
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:119
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:126
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:128
+msgid "Add Footer widgets here."
+msgstr ""
+
+#: inc/customizer.php:16
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:17
+msgid "Travello Theme Options"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Top Header Sections"
+msgstr ""
+
+#: inc/customizer.php:44
+msgid "Show Contact Bar"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Number"
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Email"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "facebook url"
+msgstr ""
+
+#: inc/customizer.php:99
+msgid "twitter url"
+msgstr ""
+
+#: inc/customizer.php:113
+msgid "instagram url"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "linkedin url"
+msgstr ""
+
+#: inc/customizer.php:141
+msgid "youtube url"
+msgstr ""
+
+#: inc/customizer.php:154
+msgid "Copyright Section"
+msgstr ""
+
+#: inc/customizer.php:162
+msgid "Developed & designed by"
+msgstr ""
+
+#: inc/customizer.php:168
+msgid "copyright text"
+msgstr ""
+
+#: inc/customizer.php:176
+msgid "weblizar"
+msgstr ""
+
+#: inc/customizer.php:182
+msgid "Copyright Link Text"
+msgstr ""
+
+#: inc/customizer.php:196
+msgid "Copyright Link"
+msgstr ""
+
+#: inc/customizer.php:217
+msgid "Logo Height"
+msgstr ""
+
+#: inc/customizer.php:236
+msgid "Logo Width"
+msgstr ""
+
+#: inc/header-section.php:19
+msgid "Blog"
+msgstr ""
+
+#: inc/nav_walker_bootstrap.php:366
+msgid "Add a menu"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: single.php:36
+msgid "Pages:"
+msgstr ""
+
+#: single.php:42
+msgid "Next page"
+msgstr ""
+
+#: single.php:43
+msgid "Previous page"
+msgstr ""
+
+#: template-parts/content-page.php:31 template-parts/content-post.php:44
+msgid "Oops, there are no posts."
+msgstr ""
+
+#: template-parts/content-post.php:30 template-parts/content-search.php:31
+msgid "Read more"
+msgstr ""
+
+#: template-parts/content-search.php:12
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-search.php:44
+msgid "No Results Found "
+msgstr ""

@@ -1,0 +1,215 @@
+/*
+Theme Name: Samudra
+Theme URI: https://wpkoi.com/samudra-wpkoi-wordpress-theme/
+Template: lalita
+Author: wpkoithemes
+Author URI: https://wpkoi.com
+Description: Samudra is a child theme for Lalita WPKoi theme. You can find theme demos at wpkoi.com. Samudra has a colorful, powerful style and design for portfolio, business or agency content. The theme is multipurpose, so if You like the style, You can use it to represent Your art, business, an event, show Your portfolio, start a blog, start a webshop and sell Your products etc. The demos use Elementor, WooCommerce and Contact Form 7 plugins. The premium demo uses the Samudra premium plugin also. Samudra has an easy to use admin with a lot of customizer functions, so You can build Your dream without coding knowledge. The theme is responsive so looks good on almost every devices. You can setup multiple header styles, navigation styles and layouts. Build You site with Samudra Theme and share it with the world! You can also find a documentation with an install guide and a tutorial for the screenshot look on wpkoi.com/docs.
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: samudra
+Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, footer-widgets, blog, e-commerce, flexible-header, full-width-template, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images
+
+*/
+
+body {
+  background-color: #e03f33;
+  padding: 0 0 0 30px;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.top-bar {
+  font-size: 13px;
+}
+
+.inside-top-bar {
+  padding: 6px 20px 3px;
+}
+
+.inside-header {
+  padding: 0 20px;
+}
+
+.main-title,
+.widget-title,
+button:not(.menu-toggle),
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button,
+.button:visited {
+  font-weight: 400;
+}
+
+.main-navigation a {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.main-navigation .main-nav ul li a,
+.main-navigation .mobile-bar-items a,
+.menu-toggle {
+  padding-left: 9px;
+  padding-right: 9px;
+  line-height: 70px;
+}
+
+.menu-item-has-children .dropdown-menu-toggle {
+  padding-left: 9px;
+}
+
+header .main-navigation .main-nav ul li.wpkoi-nav-btn-h {
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header .main-navigation .main-nav ul li a.wpkoi-nav-btn {
+  padding: 10px 20px;
+  line-height: inherit;
+  margin-bottom: 3px;
+}
+
+.button,
+.woocommerce a.button,
+.woocommerce button.button {
+  padding: 12px 25px;
+}
+
+.site-info {
+  font-size: 15px;
+}
+
+.lalita-side-left-content {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.lalita-side-left-content .lalita-side-left-socials ul {
+  padding: 10px 4px;
+}
+
+.lalita-side-left-content .lalita-side-left-text {
+  padding: 4px 10px;
+}
+
+.nav-float-right .is_stuck.main-navigation {
+  margin-left: 30px;
+  width: calc(100% - 30px - 0px) !important;
+}
+
+.lalita-side-left-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 100%;
+}
+
+.fluid-header.sticky-enabled .main-navigation.is_stuck .inside-navigation {
+  padding-left: 30px;
+}
+
+.page-header-blog-content-h {
+  display: block;
+}
+
+.page-header-blog-content-h .page-header-blog-content {
+  margin: 0;
+}
+
+.page-header-blog-text {
+  display: inline-block;
+  width: 75%;
+}
+
+.page-header-blog-button {
+  display: inline-block;
+  width: 24%;
+  text-align: right;
+}
+
+.page-header-blog-content h2,
+.page-header-blog-content p {
+  font-size: 110px;
+  font-weight: 400;
+  padding: 0;
+  line-height: 1;
+}
+
+.page-header-blog-content a.button {
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
+.page-header-blog {
+  padding: 5% 0 9%;
+}
+
+.site-footer .footer-widgets-container .inner-padding {
+  padding: 0 0 20px 40px;
+}
+
+.samudra-rounded-img .post-image img {
+  border-radius: 30px;
+}
+
+.footer-bar .lalita-social-bar {
+  float: right;
+}
+
+.footer-bar .lalita-socials-list li {
+  display: inline-block;
+  padding-left: 8px;
+}
+
+@media (max-width: 1024px) {
+  .page-header-blog-content-h h2,
+	.page-header-blog-content-h p {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 850px) {
+  .page-header-blog-button,
+	.page-header-blog-text {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .page-header-blog-content a.button {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-header-blog-content-h h2,
+	.page-header-blog-content-h p {
+    font-size: 50px;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .lalita-side-left-cover, .lalita-side-right-cover {
+    width: 0;
+  }
+
+  .footer-bar .widget, .footer-bar .lalita-social-bar {
+    float: none;
+    margin: 0 10px;
+  }
+}
